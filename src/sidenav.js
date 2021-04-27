@@ -4,10 +4,10 @@
  * Adds links based on tree element to side bar navigation.
  */
 function addSideNavLinks() {
-    let tree = $.parseXML(getDataFromSessionStorage("tree"));
+    let tree = $.parseXML(getDataFromSessionStorage("ultrasonicUnderwoodTree"));
     if (!tree) return;
 
-    let adBlocks = JSON.parse(getDataFromSessionStorage("adBlocks"));
+    let adBlocks = JSON.parse(getDataFromSessionStorage("ultrasonicUnderwoodAdBlocks"));
     if (!adBlocks) return;
 
     adBlocks.forEach(function (d) {
@@ -35,7 +35,7 @@ function addSideNavLinks() {
 
         // add listener
         btn.on("click", function () {
-            let localALinks = JSON.parse(getDataFromSessionStorage("activeLinks"));
+            let localALinks = JSON.parse(getDataFromSessionStorage("ultrasonicUnderwoodActiveLinks"));
             if (!localALinks) return;
 
             this.classList.toggle("active");
@@ -50,11 +50,11 @@ function addSideNavLinks() {
                 dropdownContent.style.display = "block";
                 localALinks.push(this.innerText);
             }
-            keepDataInSessionStorage("activeLinks", JSON.stringify(localALinks));
+            keepDataInSessionStorage("ultrasonicUnderwoodActiveLinks", JSON.stringify(localALinks));
         });
 
         // set currently active links
-        let aLinks = JSON.parse(getDataFromSessionStorage("activeLinks"));
+        let aLinks = JSON.parse(getDataFromSessionStorage("ultrasonicUnderwoodActiveLinks"));
         if (!aLinks) return;
         if (aLinks.includes(btn.text())) {
             btn.next().css("display", "block");
