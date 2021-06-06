@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>PerCollECT - UltrasonicUnderwood</title>
+  <title>PerCollECT - Ultrasonic Underwood</title>
   <!-- include stylesheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -32,10 +32,10 @@
 <body onhashchange=location.reload()>
   <script>
     // define some global vars 
-    let repoName = "Ultrasonic Underwood";
+    let repoName = "UltrasonicUnderwood";
     let dataDict = "master/data/";
     let xmlRootFile = "root_node.xml";
-    let dataHost = "https://raw.githubusercontent.com/PerCollECT/UltrasonicUnderwood/"
+    let dataHost = "https://raw.githubusercontent.com/PerCollECT/" + repoName + "/"
     let homePath = (window.location.href.includes("localhost") || window.location.href.includes("127.0.")) ?
       `${window.location.origin}/` :
       `${window.location.origin}/${window.location.pathname.split("/")[1]}/`;
@@ -108,25 +108,25 @@
     }
 
     // parse data only if tree not loaded already
-    if (getDataFromSessionStorage("ultrasonicUnderwoodTree") === null) {
+    if (getDataFromSessionStorage(repoName + "Tree") === null) {
       let parsedData = parseTree(dataHost, dataDict, xmlRootFile);
       if(!parsedData.length) throw new Error("index.js: Data error");
 
       initTreeModel(parsedData);       
       let serializedTree = new XMLSerializer().serializeToString(parsedData[0]);
-      keepDataInSessionStorage("ultrasonicUnderwoodTree", serializedTree);
-      keepDataInSessionStorage("additionalTreePairs", JSON.stringify(parsedData[1]));
+      keepDataInSessionStorage(repoName + "Tree", serializedTree);
+      keepDataInSessionStorage(repoName + "AdditionalTreePairs", JSON.stringify(parsedData[1]));
     }
 
     // get adBlock data if not already exists
-    if (getDataFromSessionStorage("ultrasonicUnderwoodAdBlocks") === null) {
+    if (getDataFromSessionStorage(repoName + "AdBlocks") === null) {
       let adBlocks = getAdBlocks();
-      keepDataInSessionStorage("ultrasonicUnderwoodAdBlocks", JSON.stringify(adBlocks));
+      keepDataInSessionStorage(repoName + "AdBlocks", JSON.stringify(adBlocks));
     }
 
     // handle active links of side bar
-    if (getDataFromSessionStorage("ultrasonicUnderwoodActiveLinks") === null || window.location.href == homePath) {
-      keepDataInSessionStorage("ultrasonicUnderwoodActiveLinks", JSON.stringify([]));
+    if (getDataFromSessionStorage(repoName + "ActiveLinks") === null || window.location.href == homePath) {
+      keepDataInSessionStorage(repoName + "ActiveLinks", JSON.stringify([]));
     }
 
     // manage page content
