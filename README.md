@@ -2,7 +2,7 @@
 
 # PerCollECT - [UltrasonicUnderwood](https://percollect.github.io/UltrasonicUnderwood/)
 
-## Perception Sensor Collaborative Effect and Cause Tree (PerCollECT) - Radar Tree
+## Perception Sensor Collaborative Effect and Cause Tree (PerCollECT) - Ultrasonic Tree
 
 This tree facilitates the analysis of cause and effect chain in the signal processing of automotive ultrasonic sensors. Visualization of the tree can be found under [https://percollect.github.io/UltrasonicUnderwood/](https://percollect.github.io/UltrasonicUnderwood/).
 
