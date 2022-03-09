@@ -2,10 +2,469 @@
   {
     "id": "0",
     "parentIds": [],
-    "title": "False negative in object list",
-    "decomBlock": "Object identification",
-    "description": "An object present in ground truth is not detected by the sensor" ,
+    "title": "Depolarization of piezoceramics",
+    "decomBlock": "Emission",
+    "description": "" ,
     "references": "",
     "nodeType": "effect"
+  },
+  {
+    "id": "1",
+    "parentIds": ["0", "8"],
+    "title": "Aging of piecoceramics",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "2",
+    "parentIds": ["0", "8"],
+    "title": "Temperature of piecoceramics",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "3",
+    "parentIds": ["0"],
+    "title": "Constant electrical field applied opposite to polarization direction of piecoceramics",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "4",
+    "parentIds": ["0"],
+    "title": "Mechanical force opposite to mechanical deformation which occurred during polarization process of piecoceramics",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "5",
+    "parentIds": ["6", "7", "8"],
+    "title": "No acoustic damping of diaphragm",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "6",
+    "parentIds": [],
+    "title": "Harmful sound emitted into sensor interior",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "7",
+    "parentIds": [],
+    "title": "No robustness towards external coatings on the diaphragm",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "8",
+    "parentIds": ["9", "12"],
+    "title": "Oscillation frequency of diaphragm",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "9",
+    "parentIds": ["10"],
+    "title": "High working frequencies",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "10",
+    "parentIds": ["11"],
+    "title": "Higher airborne sound dampening of high frequencies",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "11",
+    "parentIds": ["38"],
+    "title": "Low amplitudes of echo signal",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "12",
+    "parentIds": ["13"],
+    "title": "Low working frequencies",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "13",
+    "parentIds": [],
+    "title": "Increasing proportion of sources of interfering sound in vehicle environment",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "14",
+    "parentIds": ["15"],
+    "title": "Settlement of diaphragm oscillations taking longer than runtime of ultrasonic pulse",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "15",
+    "parentIds": [],
+    "title": "System not being receptive",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "16",
+    "parentIds": ["18", "10", "21"],
+    "title": "Ultrasonic transducer is used in transmit mode",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "17",
+    "parentIds": ["18", "13"],
+    "title": "Ultrasonic transducer is used in receive mode",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "18",
+    "parentIds": ["15"],
+    "title": "Ultrasonic transducer is used in transmit and receive mode",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "19",
+    "parentIds": ["14"],
+    "title": "Reflective object close to observer",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "20",
+    "parentIds": ["14", "21"],
+    "title": "Duration of settlement/resounding of diaphragm oscillations",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "21",
+    "parentIds": [],
+    "title": "Transmission duration of ultrasonic pulses",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "22",
+    "parentIds": [],
+    "title": "Inhomogeneous directionality characteristics / antenna diagram of sensor",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "23",
+    "parentIds": ["22", "25"],
+    "title": "Sound interference",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "24",
+    "parentIds": ["22", "25"],
+    "title": "Side lobes",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "25",
+    "parentIds": ["22"],
+    "title": "Constriction of sonic lobe",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "26",
+    "parentIds": ["23", "24"],
+    "title": "Protruding installation environment",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "27",
+    "parentIds": ["29"],
+    "title": "Effective horizontal opening angle",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "28",
+    "parentIds": ["29", "39"],
+    "title": "Number of installed sensors",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "29",
+    "parentIds": [],
+    "title": "Incomplete coverage (field of view) of vehicle width by installed sensors",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "30",
+    "parentIds": ["33"],
+    "title": "Effective vertical opening angle",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "31",
+    "parentIds": ["33"],
+    "title": "Reflections from road surface",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "32",
+    "parentIds": ["33"],
+    "title": "Gravel/paved road surface",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "33",
+    "parentIds": ["34"],
+    "title": "Undesired signal",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "34",
+    "parentIds": [],
+    "title": "Pseudo-obstacles being displayed",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "35",
+    "parentIds": ["38"],
+    "title": "Change of speed of sound in air as propagation medium",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "36",
+    "parentIds": ["35"],
+    "title": "Air temperature",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "37",
+    "parentIds": ["35"],
+    "title": "Air density",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "38",
+    "parentIds": [],
+    "title": "Distance measurement accuracy error",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "39",
+    "parentIds": [],
+    "title": "Geometrical measurement accuracy error",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "40",
+    "parentIds": ["39"],
+    "title": "Position of obstacle to be detected",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "41",
+    "parentIds": ["39"],
+    "title": "Expansion of obstacle to be detected",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "42",
+    "parentIds": ["39"],
+    "title": "Geometry of obstacle to be detected",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "43",
+    "parentIds": ["39"],
+    "title": "Orientation of obstacle to be detected",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "44",
+    "parentIds": ["39"],
+    "title": "Width of sensor-using vehicle",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "45",
+    "parentIds": ["39", "38"],
+    "title": "No trilateration principle applied",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "46",
+    "parentIds": ["11"],
+    "title": "Emitted pulse hitting partly sound-absorbing materials",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "47",
+    "parentIds": [],
+    "title": "Measurement of desired signal not possible",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "48",
+    "parentIds": ["49"],
+    "title": "Strong extraneous acoustic emitters in the region of ultrasonic working frequency in immediate vicinity of sensor-using vehicle",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
+  },
+  {
+    "id": "49",
+    "parentIds": ["50"],
+    "title": "Noise floor",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "50",
+    "parentIds": ["47"],
+    "title": "Not distinguishable from noise floor",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "effect"
+  },
+  {
+    "id": "51",
+    "parentIds": ["20"],
+    "title": "layers of dirt, snow, or ice on sensor diaphragm form a sound bridge with the bumper",
+    "decomBlock": "Emission",
+    "description": "" ,
+    "references": "",
+    "nodeType": "systemIndependent"
   }
 ]
