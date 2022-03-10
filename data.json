@@ -57,7 +57,7 @@
     "id": "6",
     "parentIds": [],
     "title": "Harmful sound emitted into sensor interior",
-    "decomBlock": "Emission",
+    "decomBlock": "Reception",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -93,7 +93,7 @@
     "id": "10",
     "parentIds": ["11"],
     "title": "Higher airborne sound dampening of high frequencies",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -102,7 +102,7 @@
     "id": "11",
     "parentIds": ["38"],
     "title": "Low amplitudes of echo signal",
-    "decomBlock": "Emission",
+    "decomBlock": "Reception",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -120,7 +120,7 @@
     "id": "13",
     "parentIds": [],
     "title": "Increasing proportion of sources of interfering sound in vehicle environment",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -138,7 +138,7 @@
     "id": "15",
     "parentIds": [],
     "title": "System not being receptive",
-    "decomBlock": "Emission",
+    "decomBlock": "Reception",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -156,7 +156,7 @@
     "id": "17",
     "parentIds": ["18", "13"],
     "title": "Ultrasonic transducer is used in receive mode",
-    "decomBlock": "Emission",
+    "decomBlock": "Reception",
     "description": "" ,
     "references": "",
     "nodeType": "designParameter"
@@ -174,7 +174,7 @@
     "id": "19",
     "parentIds": ["14"],
     "title": "Reflective object close to observer",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -201,7 +201,7 @@
     "id": "22",
     "parentIds": [],
     "title": "Inhomogeneous directionality characteristics / antenna diagram of sensor",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -210,7 +210,7 @@
     "id": "23",
     "parentIds": ["22", "25"],
     "title": "Sound interference",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -219,7 +219,7 @@
     "id": "24",
     "parentIds": ["22", "25"],
     "title": "Side lobes",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -228,7 +228,7 @@
     "id": "25",
     "parentIds": ["22"],
     "title": "Constriction of sonic lobe",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -237,7 +237,7 @@
     "id": "26",
     "parentIds": ["23", "24"],
     "title": "Protruding installation environment",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "designParameter"
@@ -264,7 +264,7 @@
     "id": "29",
     "parentIds": [],
     "title": "Incomplete coverage (field of view) of vehicle width by installed sensors",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -282,7 +282,7 @@
     "id": "31",
     "parentIds": ["33"],
     "title": "Reflections from road surface",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -291,7 +291,7 @@
     "id": "32",
     "parentIds": ["33"],
     "title": "Gravel/paved road surface",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -300,7 +300,7 @@
     "id": "33",
     "parentIds": ["34"],
     "title": "Undesired signal",
-    "decomBlock": "Emission",
+    "decomBlock": "Reception",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -309,7 +309,7 @@
     "id": "34",
     "parentIds": [],
     "title": "Pseudo-obstacles being displayed",
-    "decomBlock": "Emission",
+    "decomBlock": "Object identification",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -318,7 +318,7 @@
     "id": "35",
     "parentIds": ["38"],
     "title": "Change of speed of sound in air as propagation medium",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -327,7 +327,7 @@
     "id": "36",
     "parentIds": ["35"],
     "title": "Air temperature",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -336,7 +336,7 @@
     "id": "37",
     "parentIds": ["35"],
     "title": "Air density",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -345,7 +345,7 @@
     "id": "38",
     "parentIds": [],
     "title": "Distance measurement accuracy error",
-    "decomBlock": "Emission",
+    "decomBlock": "Pre-processing",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -354,7 +354,7 @@
     "id": "39",
     "parentIds": [],
     "title": "Geometrical measurement accuracy error",
-    "decomBlock": "Emission",
+    "decomBlock": "Pre-processing",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -363,7 +363,7 @@
     "id": "40",
     "parentIds": ["39"],
     "title": "Position of obstacle to be detected",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -372,7 +372,7 @@
     "id": "41",
     "parentIds": ["39"],
     "title": "Expansion of obstacle to be detected",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -381,7 +381,7 @@
     "id": "42",
     "parentIds": ["39"],
     "title": "Geometry of obstacle to be detected",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -390,7 +390,7 @@
     "id": "43",
     "parentIds": ["39"],
     "title": "Orientation of obstacle to be detected",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -408,7 +408,7 @@
     "id": "45",
     "parentIds": ["39", "38"],
     "title": "No trilateration principle applied",
-    "decomBlock": "Emission",
+    "decomBlock": "Pre-processing",
     "description": "" ,
     "references": "",
     "nodeType": "designParameter"
@@ -417,7 +417,7 @@
     "id": "46",
     "parentIds": ["11"],
     "title": "Emitted pulse hitting partly sound-absorbing materials",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -426,7 +426,7 @@
     "id": "47",
     "parentIds": [],
     "title": "Measurement of desired signal not possible",
-    "decomBlock": "Emission",
+    "decomBlock": "Detection identification",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -435,7 +435,7 @@
     "id": "48",
     "parentIds": ["49"],
     "title": "Strong extraneous acoustic emitters in the region of ultrasonic working frequency in immediate vicinity of sensor-using vehicle",
-    "decomBlock": "Emission",
+    "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
     "nodeType": "systemIndependent"
@@ -444,7 +444,7 @@
     "id": "49",
     "parentIds": ["50"],
     "title": "Noise floor",
-    "decomBlock": "Emission",
+    "decomBlock": "Detection identification",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -453,7 +453,7 @@
     "id": "50",
     "parentIds": ["47"],
     "title": "Not distinguishable from noise floor",
-    "decomBlock": "Emission",
+    "decomBlock": "Detection identification",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
