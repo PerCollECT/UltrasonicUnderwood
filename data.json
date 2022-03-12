@@ -45,49 +45,31 @@
     "nodeType": "systemIndependent"
   },
   {
-    "id": "5",
-    "parentIds": ["6", "7", "8"],
-    "title": "No acoustic damping of diaphragm",
+    "id": "6",
+    "parentIds": ["8"],
+    "title": "Receiving of soundwaves",
+    "decomBlock": "Reception",
+    "description": "" ,
+    "references": "",
+    "nodeType": "designParameter"
+  },
+  {
+    "id": "7",
+    "parentIds": ["8"],
+    "title": "Electrical voltage applied to piezo transductor",
     "decomBlock": "Emission",
     "description": "" ,
     "references": "",
     "nodeType": "designParameter"
   },
   {
-    "id": "6",
-    "parentIds": [],
-    "title": "Harmful sound emitted into sensor interior",
-    "decomBlock": "Reception",
-    "description": "" ,
-    "references": "",
-    "nodeType": "systemIndependent"
-  },
-  {
-    "id": "7",
-    "parentIds": [],
-    "title": "No robustness towards external coatings on the diaphragm",
-    "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
-    "nodeType": "systemIndependent"
-  },
-  {
     "id": "8",
-    "parentIds": ["9", "12"],
+    "parentIds": ["10", "13"],
     "title": "Oscillation frequency of diaphragm",
     "decomBlock": "Emission",
     "description": "" ,
     "references": "",
-    "nodeType": "systemIndependent"
-  },
-  {
-    "id": "9",
-    "parentIds": ["10"],
-    "title": "High working frequencies",
-    "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
-    "nodeType": "systemIndependent"
+    "nodeType": "effect"
   },
   {
     "id": "10",
@@ -108,18 +90,9 @@
     "nodeType": "effect"
   },
   {
-    "id": "12",
-    "parentIds": ["13"],
-    "title": "Low working frequencies",
-    "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
-    "nodeType": "systemIndependent"
-  },
-  {
     "id": "13",
     "parentIds": [],
-    "title": "Increasing proportion of sources of interfering sound in vehicle environment",
+    "title": "Proportion of sources of interfering sound increasing for lower working frequencies",
     "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
