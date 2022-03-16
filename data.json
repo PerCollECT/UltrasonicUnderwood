@@ -4,7 +4,7 @@
     "parentIds": [],
     "title": "Depolarization of piezoceramics",
     "decomBlock": "Emission",
-    "description": "" ,
+    "description": "Polarization state, which is archieved by voltages being applied to piecoceramics during manufacturing process, is subsiding.",
     "references": "",
     "nodeType": "effect"
   },
@@ -13,34 +13,34 @@
     "parentIds": ["0", "8"],
     "title": "Aging of piecoceramics",
     "decomBlock": "Emission",
-    "description": "" ,
+    "description": "Piecoceramics experiencing an aging process since they are manufactured.",
     "references": "",
     "nodeType": "systemIndependent"
   },
   {
     "id": "2",
     "parentIds": ["0", "8"],
-    "title": "Temperature of piecoceramics",
+    "title": "Piecoceramics temperature",
     "decomBlock": "Emission",
-    "description": "" ,
+    "description": "Temperature of piecoceramics." ,
     "references": "",
     "nodeType": "systemIndependent"
   },
   {
     "id": "3",
     "parentIds": ["0"],
-    "title": "Constant electrical field applied opposite to polarization direction of piecoceramics",
+    "title": "Specifically directed constant electrical field applied to piecoceramics",
     "decomBlock": "Emission",
-    "description": "" ,
+    "description": "Constant electrical field applied opposite to polarization direction of piecoceramics." ,
     "references": "",
     "nodeType": "systemIndependent"
   },
   {
     "id": "4",
     "parentIds": ["0"],
-    "title": "Mechanical force opposite to mechanical deformation which occurred during polarization process of piecoceramics",
+    "title": "Specifically directed mechanical force applied to piecoceramics",
     "decomBlock": "Emission",
-    "description": "" ,
+    "description": "Mechanical force applied opposite to mechanical deformation which occurred during polarization process of piecoceramics." ,
     "references": "",
     "nodeType": "systemIndependent"
   },
@@ -67,7 +67,7 @@
     "parentIds": ["10", "13"],
     "title": "Oscillation frequency of diaphragm",
     "decomBlock": "Emission",
-    "description": "" ,
+    "description": "Frequency of oscillating diaphragm, determining the number of full oscillation wave periods per second.",
     "references": "",
     "nodeType": "effect"
   },
@@ -76,7 +76,7 @@
     "parentIds": ["11"],
     "title": "Higher airborne sound dampening of high frequencies",
     "decomBlock": "Signal propagation",
-    "description": "" ,
+    "description": "The higher the sound frequency, the higher the airborne sound dampening. Thus, amplitudes of considered high frequency soundwaves are decreasing faster while propagating, in comparison to soundwaves of lower frequencies.",
     "references": "",
     "nodeType": "effect"
   },
@@ -94,7 +94,7 @@
     "parentIds": [],
     "title": "Proportion of sources of interfering sound increasing for lower working frequencies",
     "decomBlock": "Signal propagation",
-    "description": "" ,
+    "description": "The lower the working frequency of an installed diaphragm, the bigger the proportion of sources of interfering sound in sensor environment." ,
     "references": "",
     "nodeType": "effect"
   },
@@ -434,9 +434,9 @@
   {
     "id": "51",
     "parentIds": ["20"],
-    "title": "layers of dirt, snow, or ice on sensor diaphragm form a sound bridge with the bumper",
+    "title": "Layers due to environmental influences on sensor diaphragm form a sound bridge with the bumper",
     "decomBlock": "Emission",
-    "description": "" ,
+    "description": "Layers of dirt, snow, or ice on sensor diaphragm form a sound bridge with the bumper.",
     "references": "",
     "nodeType": "systemIndependent"
   }
