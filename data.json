@@ -82,7 +82,7 @@
   },
   {
     "id": "11",
-    "parentIds": ["38"],
+    "parentIds": ["38", "50"],
     "title": "Low amplitudes of echo signal",
     "decomBlock": "Reception",
     "description": "" ,
@@ -226,7 +226,7 @@
   },
   {
     "id": "28",
-    "parentIds": ["29", "39"],
+    "parentIds": ["29", "38"],
     "title": "Number of installed sensors",
     "decomBlock": "Emission",
     "description": "" ,
@@ -236,7 +236,7 @@
   {
     "id": "29",
     "parentIds": [],
-    "title": "Incomplete coverage (field of view) of vehicle width by installed sensors",
+    "title": "Incomplete coverage (field of view) of ego vehicle width by installed sensors",
     "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
@@ -271,18 +271,9 @@
   },
   {
     "id": "33",
-    "parentIds": ["34"],
-    "title": "Undesired signal",
-    "decomBlock": "Reception",
-    "description": "" ,
-    "references": "",
-    "nodeType": "effect"
-  },
-  {
-    "id": "34",
     "parentIds": [],
-    "title": "Pseudo-obstacles being displayed",
-    "decomBlock": "Object identification",
+    "title": "False positive detection",
+    "decomBlock": "Detection identification",
     "description": "" ,
     "references": "",
     "nodeType": "effect"
@@ -317,16 +308,7 @@
   {
     "id": "38",
     "parentIds": [],
-    "title": "Distance measurement accuracy error",
-    "decomBlock": "Pre-processing",
-    "description": "" ,
-    "references": "",
-    "nodeType": "effect"
-  },
-  {
-    "id": "39",
-    "parentIds": [],
-    "title": "Geometrical measurement accuracy error",
+    "title": "Distance measurement error",
     "decomBlock": "Pre-processing",
     "description": "" ,
     "references": "",
@@ -334,7 +316,7 @@
   },
   {
     "id": "40",
-    "parentIds": ["39"],
+    "parentIds": ["38"],
     "title": "Position of obstacle to be detected",
     "decomBlock": "Signal propagation",
     "description": "" ,
@@ -343,7 +325,7 @@
   },
   {
     "id": "41",
-    "parentIds": ["39"],
+    "parentIds": ["38"],
     "title": "Expansion of obstacle to be detected",
     "decomBlock": "Signal propagation",
     "description": "" ,
@@ -352,7 +334,7 @@
   },
   {
     "id": "42",
-    "parentIds": ["39"],
+    "parentIds": ["38"],
     "title": "Geometry of obstacle to be detected",
     "decomBlock": "Signal propagation",
     "description": "" ,
@@ -361,7 +343,7 @@
   },
   {
     "id": "43",
-    "parentIds": ["39"],
+    "parentIds": ["38"],
     "title": "Orientation of obstacle to be detected",
     "decomBlock": "Signal propagation",
     "description": "" ,
@@ -370,18 +352,9 @@
   },
   {
     "id": "44",
-    "parentIds": ["39"],
-    "title": "Width of sensor-using vehicle",
+    "parentIds": ["38", "29"],
+    "title": "Width of ego vehicle",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
-    "nodeType": "designParameter"
-  },
-  {
-    "id": "45",
-    "parentIds": ["39", "38"],
-    "title": "No trilateration principle applied",
-    "decomBlock": "Pre-processing",
     "description": "" ,
     "references": "",
     "nodeType": "designParameter"
@@ -389,7 +362,7 @@
   {
     "id": "46",
     "parentIds": ["11"],
-    "title": "Emitted pulse hitting partly sound-absorbing materials",
+    "title": "Object material properties",
     "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
@@ -398,7 +371,7 @@
   {
     "id": "47",
     "parentIds": [],
-    "title": "Measurement of desired signal not possible",
+    "title": "False negative detection",
     "decomBlock": "Detection identification",
     "description": "" ,
     "references": "",
@@ -407,7 +380,7 @@
   {
     "id": "48",
     "parentIds": ["49"],
-    "title": "Strong extraneous acoustic emitters in the region of ultrasonic working frequency in immediate vicinity of sensor-using vehicle",
+    "title": "Extraneous ultrasonic emitters in vicinity of sensor",
     "decomBlock": "Signal propagation",
     "description": "" ,
     "references": "",
