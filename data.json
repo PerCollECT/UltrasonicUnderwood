@@ -4,44 +4,44 @@
     "parentIds": [],
     "title": "Depolarization of piezoceramics",
     "decomBlock": "Emission",
-    "description": "Polarization state, which is archieved by voltages being applied to piecoceramics during manufacturing process, is subsiding.",
+    "description": "Polarization state, which is archieved by voltages being applied to piezoceramics during manufacturing process, is subsiding.",
     "references": "",
     "nodeType": "effect"
   },
   {
     "id": "1",
     "parentIds": ["0", "8"],
-    "title": "Aging of piecoceramics",
+    "title": "Aging of piezoceramics",
     "decomBlock": "Emission",
-    "description": "Piecoceramics experiencing an aging process since they are manufactured.",
-    "references": "",
+    "description": "Piezoceramics experiencing an aging process since they are manufactured.",
+    "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.] [8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.308.]",
     "nodeType": "systemIndependent"
   },
   {
     "id": "2",
     "parentIds": ["0", "8"],
-    "title": "Piecoceramics temperature",
+    "title": "Piezoceramics temperature",
     "decomBlock": "Emission",
-    "description": "Temperature of piecoceramics." ,
-    "references": "",
+    "description": "Temperature of piezoceramics." ,
+    "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.] [8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.308.]",
     "nodeType": "systemIndependent"
   },
   {
     "id": "3",
     "parentIds": ["0"],
-    "title": "Specifically directed constant electrical field applied to piecoceramics",
+    "title": "Specifically directed constant electrical field applied to piezoceramics",
     "decomBlock": "Emission",
-    "description": "Constant electrical field applied opposite to polarization direction of piecoceramics." ,
-    "references": "",
+    "description": "Constant electrical field applied opposite to polarization direction of piezoceramics." ,
+    "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.]",
     "nodeType": "systemIndependent"
   },
   {
     "id": "4",
     "parentIds": ["0"],
-    "title": "Specifically directed mechanical force applied to piecoceramics",
+    "title": "Specifically directed mechanical force applied to piezoceramics",
     "decomBlock": "Emission",
-    "description": "Mechanical force applied opposite to mechanical deformation which occurred during polarization process of piecoceramics." ,
-    "references": "",
+    "description": "Mechanical force applied opposite to mechanical deformation which occurred during polarization process of piezoceramics." ,
+    "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -49,17 +49,17 @@
     "parentIds": ["8"],
     "title": "Receiving of soundwaves",
     "decomBlock": "Reception",
-    "description": "" ,
-    "references": "",
+    "description": "Sound, which is being a mechanical vibration transmitted through a medium as a longitudinal wave, being received by piezo transducer." ,
+    "references": "[8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307-309.]",
     "nodeType": "designParameter"
   },
   {
     "id": "7",
     "parentIds": ["8"],
-    "title": "Electrical voltage applied to piezo transductor",
+    "title": "Electrical voltage applied to piezo transducer",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Application of pre-defined electrical voltage to piezo transducer." ,
+    "references": "[8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307-309.]",
     "nodeType": "designParameter"
   },
   {
@@ -68,7 +68,7 @@
     "title": "Oscillation frequency of diaphragm",
     "decomBlock": "Emission",
     "description": "Frequency of oscillating diaphragm, determining the number of full oscillation wave periods per second.",
-    "references": "",
+    "references": "[10, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.] [13, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
     "nodeType": "effect"
   },
   {
@@ -77,7 +77,7 @@
     "title": "Higher airborne sound dampening of high frequencies",
     "decomBlock": "Signal propagation",
     "description": "The higher the sound frequency, the higher the airborne sound dampening. Thus, amplitudes of considered high frequency soundwaves are decreasing faster while propagating, in comparison to soundwaves of lower frequencies.",
-    "references": "",
+    "references": "[11, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
     "nodeType": "effect"
   },
   {
@@ -85,8 +85,8 @@
     "parentIds": ["38", "50"],
     "title": "Low amplitudes of echo signal",
     "decomBlock": "Reception",
-    "description": "" ,
-    "references": "",
+    "description": "Amplitudes of measured echo signal being low, rearding the power of sound received by diaphragm whithin the sensor." ,
+    "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.] [50, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321-322.]",
     "nodeType": "effect"
   },
   {
@@ -103,8 +103,8 @@
     "parentIds": ["15"],
     "title": "Settlement of diaphragm oscillations taking longer than runtime of ultrasonic pulse",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Diaphragm oscillations are not settled after transmission of ultrasonic pulse while the pulse has already been reflected and returned as an echo." ,
+    "references": "[15, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -112,7 +112,7 @@
     "parentIds": [],
     "title": "System not being receptive",
     "decomBlock": "Reception",
-    "description": "" ,
+    "description": "Non-existing or interrupted data flow whithin sensor reception unit." ,
     "references": "",
     "nodeType": "effect"
   },
@@ -121,8 +121,8 @@
     "parentIds": ["18", "10", "21"],
     "title": "Ultrasonic transducer is used in transmit mode",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Ultrasonic transducers can be operating in transmit- or receive mode. Sound waves being sent out in transmit mode as pre-defined voltages are applied to installed piezoceramics." ,
+    "references": "[18, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.] [10, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.] [21, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
     "nodeType": "designParameter"
   },
   {
@@ -130,8 +130,8 @@
     "parentIds": ["18", "13"],
     "title": "Ultrasonic transducer is used in receive mode",
     "decomBlock": "Reception",
-    "description": "" ,
-    "references": "",
+    "description": "Ultrasonic transducers can be operating in transmit- or receive mode. Sound waves being received and transformed into voltages by installed piezoceramics, when operating in receive mode." ,
+    "references": "[18, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.] [13, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
     "nodeType": "designParameter"
   },
   {
@@ -139,34 +139,34 @@
     "parentIds": ["15"],
     "title": "Ultrasonic transducer is used in transmit and receive mode",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Ultrasonic transducers can be operating in transmit- or receive mode, while a combination of the two modes whithin a single transducer is implementable. Sound waves being sent out in transmit mode as pre-defined voltages are applied to installed piezoceramics. After being reflected by object parts in the sensor field of view, the waves are again being received by the same sensor in receive mode and transformed into voltages by installed piezoceramics." ,
+    "references": "[15, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
     "nodeType": "designParameter"
   },
   {
     "id": "19",
     "parentIds": ["14"],
-    "title": "Reflective object close to observer",
+    "title": "Reflective object part close to observer",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Close positioned reflective object part, while 'close' is to be weighted in context of considered effect." ,
+    "references": "[14, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
     "nodeType": "systemIndependent"
   },
   {
     "id": "20",
     "parentIds": ["14", "21"],
-    "title": "Duration of settlement/resounding of diaphragm oscillations",
+    "title": "Settlement/resounding behavior of diaphragm oscillations",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Spatial and temporal behavior of diaphragm oscillations in terms of decay and resounding." ,
+    "references": "[14, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.] [21, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
     "nodeType": "designParameter"
   },
   {
     "id": "21",
     "parentIds": [],
-    "title": "Transmission duration of ultrasonic pulses",
+    "title": "Temporal pulse duration",
     "decomBlock": "Emission",
-    "description": "" ,
+    "description": "Temporal duration of transmitted ultrasonic pulses." ,
     "references": "",
     "nodeType": "designParameter"
   },
@@ -175,7 +175,7 @@
     "parentIds": [],
     "title": "Inhomogeneous directionality characteristics / antenna diagram of sensor",
     "decomBlock": "Signal propagation",
-    "description": "" ,
+    "description": "Directionality characteristics / antenna diagram representing the spatial distribution of so called lobes of transmitted waves, being soundwaves in this context. Considering inhomogeneous lobe distributions in present effect." ,
     "references": "",
     "nodeType": "effect"
   },
@@ -184,8 +184,8 @@
     "parentIds": ["22", "25"],
     "title": "Sound interference",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Interference effects being experienced when the field components of two or more waves, being sound waves in this context, overlap in a manner so that they amplify or weaken each other." ,
+    "references": "[22, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.] [25, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "effect"
   },
   {
@@ -193,8 +193,8 @@
     "parentIds": ["22", "25"],
     "title": "Side lobes",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Three-dimensionally plotted distribution of transmitted waves, rather typically occuring bulge-like shapes being referred as lobes. Lobes next to a characteristic central main lobe being referred as side lobes." ,
+    "references": "[22, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.] [25, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "effect"
   },
   {
@@ -202,8 +202,8 @@
     "parentIds": ["22"],
     "title": "Constriction of sonic lobe",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Three-dimensionally plotted distribution of transmitted waves, rather typically occuring bulge-like shapes being referred as lobes. Considering a tightening/narrowing of a transmitted main sonic lobe in present effect." ,
+    "references": "[22, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.314-315.]",
     "nodeType": "effect"
   },
   {
@@ -211,8 +211,8 @@
     "parentIds": ["23", "24"],
     "title": "Protruding installation environment",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Parts of sensor environment being in front of installation plane e.g. due to deeper installation of sensor compared to surroundings." ,
+    "references": "[23, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.] [24, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "designParameter"
   },
   {
@@ -220,8 +220,8 @@
     "parentIds": ["29"],
     "title": "Effective horizontal opening angle",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Effective opening angle of horizontal sound distribution. Big opening angles preferred regarding the coverage of ego vehicle width, considering a small number of sensors." ,
+    "references": "[29, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
     "nodeType": "designParameter"
   },
   {
@@ -229,16 +229,16 @@
     "parentIds": ["29", "38"],
     "title": "Number of installed sensors",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Quantity of ultrasonic sensors, considered to be installed in front or rear area of ego vehicle in this context." ,
+    "references": "[29, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.] [38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.316.]",
     "nodeType": "designParameter"
   },
   {
     "id": "29",
     "parentIds": [],
-    "title": "Incomplete coverage (field of view) of ego vehicle width by installed sensors",
-    "decomBlock": "Signal propagation",
-    "description": "" ,
+    "title": "Incomplete coverage of ego vehicle width by installed sensors",
+    "decomBlock": "Emission",
+    "description": "Sensor coverage of ego vehicle width being incomplete. The term coverage being considered to relate to the effective area, where the area of transmitted and receivable sound are overlapping." ,
     "references": "",
     "nodeType": "effect"
   },
@@ -247,8 +247,8 @@
     "parentIds": ["33"],
     "title": "Effective vertical opening angle",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Effective opening angle of vertical sound distribution. Small opening angles preferred regarding possible reflections from road surface." ,
+    "references": "[33, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
     "nodeType": "designParameter"
   },
   {
@@ -256,8 +256,8 @@
     "parentIds": ["33"],
     "title": "Reflections from road surface",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Road surface being hit by transmitted ultrasonic sound wave, leading to a partial reflection." ,
+    "references": "[33, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -265,8 +265,8 @@
     "parentIds": ["33"],
     "title": "Gravel/paved road surface",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Gravel/paved construction of road surface." ,
+    "references": "[33, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -274,7 +274,7 @@
     "parentIds": [],
     "title": "False positive detection",
     "decomBlock": "Detection identification",
-    "description": "" ,
+    "description": "Additional detection, compared to an ideally detected surrounding." ,
     "references": "",
     "nodeType": "effect"
   },
@@ -283,8 +283,8 @@
     "parentIds": ["38"],
     "title": "Change of speed of sound in air as propagation medium",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Speed of sound in air may vary from implemented parameter used for distance calculation." ,
+    "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "effect"
   },
   {
@@ -292,8 +292,8 @@
     "parentIds": ["35"],
     "title": "Air temperature",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Temperature of air." ,
+    "references": "[35, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -301,8 +301,8 @@
     "parentIds": ["35"],
     "title": "Air density",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Density of air." ,
+    "references": "[35, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -310,17 +310,17 @@
     "parentIds": [],
     "title": "Distance measurement error",
     "decomBlock": "Pre-processing",
-    "description": "" ,
+    "description": "Accuracy error in distance measurement between sensor and object part compared to ground truth distance." ,
     "references": "",
     "nodeType": "effect"
   },
   {
     "id": "40",
     "parentIds": ["38"],
-    "title": "Position of obstacle to be detected",
+    "title": "Pose of obstacle to be detected",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Pose of obstacle to be detected by installed ultrasonic sensor. Position and orientation are determining the pose of an object with respect to DIN EN ISO 8373." ,
+    "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -328,8 +328,8 @@
     "parentIds": ["38"],
     "title": "Expansion of obstacle to be detected",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Expansion of obstacle to be detected by installed ultrasonic sensor, regarding the magnitude of occupied volume." ,
+    "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -337,17 +337,8 @@
     "parentIds": ["38"],
     "title": "Geometry of obstacle to be detected",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
-    "nodeType": "systemIndependent"
-  },
-  {
-    "id": "43",
-    "parentIds": ["38"],
-    "title": "Orientation of obstacle to be detected",
-    "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Geometry of obstacle to be detected by installed ultrasonic sensor, regarding its spatial profile." ,
+    "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -355,17 +346,17 @@
     "parentIds": ["38", "29"],
     "title": "Width of ego vehicle",
     "decomBlock": "Emission",
-    "description": "" ,
-    "references": "",
+    "description": "Spatial width of ego vehicle, regarding its transverse axis." ,
+    "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.316.] [29, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
     "nodeType": "designParameter"
   },
   {
     "id": "46",
     "parentIds": ["11"],
-    "title": "Object material properties",
+    "title": "Object part material properties",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Sound absorption and reflection properties of object parts being determined by their material properties. Materials like metal, plastics, wood, masonry, and glass typically absorb a negligible amout of sound so that they show almost similar reflection properties for a considered geometric shape. Partly sound-absorbing materials like foam on the other hand may limit the distribution of sound. Also clothes, as their absorption properties may vary in a big range, have an impact on the specific measuring range." ,
+    "references": "[11, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -373,7 +364,7 @@
     "parentIds": [],
     "title": "False negative detection",
     "decomBlock": "Detection identification",
-    "description": "" ,
+    "description": "Missing detection, compared to an ideally detected surrounding." ,
     "references": "",
     "nodeType": "effect"
   },
@@ -382,8 +373,8 @@
     "parentIds": ["49"],
     "title": "Extraneous ultrasonic emitters in vicinity of sensor",
     "decomBlock": "Signal propagation",
-    "description": "" ,
-    "references": "",
+    "description": "Extraneous sources of ultrasonic waves in region installed sensor, as for example compressed air noises by air brakes in trucks or metallic grating noises from railed vehicles." ,
+    "references": "[49, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321-322.]",
     "nodeType": "systemIndependent"
   },
   {
@@ -391,8 +382,8 @@
     "parentIds": ["50"],
     "title": "Noise floor",
     "decomBlock": "Detection identification",
-    "description": "" ,
-    "references": "",
+    "description": "Variety of unintentionally measured radiation power impulses." ,
+    "references": "[50, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321-322.]",
     "nodeType": "effect"
   },
   {
@@ -400,8 +391,8 @@
     "parentIds": ["47"],
     "title": "Not distinguishable from noise floor",
     "decomBlock": "Detection identification",
-    "description": "" ,
-    "references": "",
+    "description": "The power received from the reflective surface of the object of interest present in ground truth is mathematically or visually not distinguishable from noise." ,
+    "references": "[47, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321-322.]",
     "nodeType": "effect"
   },
   {
@@ -410,7 +401,7 @@
     "title": "Layers due to environmental influences on sensor diaphragm form a sound bridge with the bumper",
     "decomBlock": "Emission",
     "description": "Layers of dirt, snow, or ice on sensor diaphragm form a sound bridge with the bumper.",
-    "references": "",
+    "references": "[20, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.322.]",
     "nodeType": "systemIndependent"
   }
 ]
