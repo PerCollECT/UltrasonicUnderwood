@@ -382,7 +382,7 @@
     "parentIds": ["20"],
     "title": "Layers due to environmental influences on diaphragm",
     "decomBlock": "Emission",
-    "description": "Layers of dirt, snow, or ice on sensor diaphragm and, thus, formation of a sound bridge with the bumper. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
+    "description": "Layers of dirt, snow or ice on sensor diaphragm and, thus, formation of a sound bridge with the bumper. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "[20, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.322.]",
     "nodeType": "systemIndependent"
   }
