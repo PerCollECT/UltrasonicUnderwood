@@ -4,7 +4,7 @@
     "parentIds": [],
     "title": "Depolarization of piezoceramics",
     "decomBlock": "Emission",
-    "description": "Polarization state, which is archieved by voltages being applied to piezoceramics during manufacturing process, is subsiding.",
+    "description": "Polarization state, which is archieved by voltages being applied to piezoceramics during manufacturing process, is subsiding. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "",
     "nodeType": "effect"
   },
@@ -13,7 +13,7 @@
     "parentIds": ["0", "8"],
     "title": "Aging of piezoceramics",
     "decomBlock": "Emission",
-    "description": "Piezoceramics experiencing an aging process since they are manufactured.",
+    "description": "Piezoceramics experiencing an aging process since they are manufactured. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.] [8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.308.]",
     "nodeType": "systemIndependent"
   },
@@ -22,7 +22,7 @@
     "parentIds": ["0", "8"],
     "title": "Piezoceramics temperature",
     "decomBlock": "Emission",
-    "description": "Temperature of piezoceramics." ,
+    "description": "Temperature of piezoceramics. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.] [8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.308.]",
     "nodeType": "systemIndependent"
   },
@@ -31,7 +31,7 @@
     "parentIds": ["0"],
     "title": "Specifically directed constant electrical field applied to piezoceramics",
     "decomBlock": "Emission",
-    "description": "Constant electrical field applied opposite to polarization direction of piezoceramics." ,
+    "description": "Constant electrical field applied opposite to polarization direction of piezoceramics. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.]",
     "nodeType": "systemIndependent"
   },
@@ -40,7 +40,7 @@
     "parentIds": ["0"],
     "title": "Specifically directed mechanical force applied to piezoceramics",
     "decomBlock": "Emission",
-    "description": "Mechanical force applied opposite to mechanical deformation which occurred during polarization process of piezoceramics." ,
+    "description": "Mechanical force applied opposite to mechanical deformation which occurred during polarization process of piezoceramics. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.]",
     "nodeType": "systemIndependent"
   },
@@ -67,7 +67,7 @@
     "parentIds": ["10", "13"],
     "title": "Oscillation frequency of diaphragm",
     "decomBlock": "Emission",
-    "description": "Frequency of oscillating diaphragm, determining the number of full oscillation wave periods per second.",
+    "description": "Frequency of oscillating diaphragm, determining the number of full oscillation wave periods per second. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "[10, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.] [13, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
     "nodeType": "effect"
   },
@@ -118,11 +118,11 @@
   },
   {
     "id": "16",
-    "parentIds": ["18", "10", "21"],
+    "parentIds": ["18", "10"],
     "title": "Ultrasonic transducer is used in transmit mode",
     "decomBlock": "Emission",
     "description": "Ultrasonic transducers can be operating in transmit- or receive mode. Sound waves being sent out in transmit mode as pre-defined voltages are applied to installed piezoceramics." ,
-    "references": "[18, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.] [10, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.] [21, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
+    "references": "[18, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.] [10, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
     "nodeType": "designParameter"
   },
   {
@@ -154,20 +154,11 @@
   },
   {
     "id": "20",
-    "parentIds": ["14", "21"],
+    "parentIds": ["14"],
     "title": "Settlement/resounding behavior of diaphragm oscillations",
     "decomBlock": "Emission",
-    "description": "Spatial and temporal behavior of diaphragm oscillations in terms of decay and resounding." ,
-    "references": "[14, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.] [21, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
-    "nodeType": "designParameter"
-  },
-  {
-    "id": "21",
-    "parentIds": [],
-    "title": "Temporal pulse duration",
-    "decomBlock": "Emission",
-    "description": "Temporal duration of transmitted ultrasonic pulses." ,
-    "references": "",
+    "description": "Spatial and temporal behavior of diaphragm oscillations in terms of decay and resounding. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
+    "references": "[14, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
     "nodeType": "designParameter"
   },
   {
@@ -227,9 +218,9 @@
   {
     "id": "28",
     "parentIds": ["29", "38"],
-    "title": "Number of installed sensors",
+    "title": "Distribution of installed sensors",
     "decomBlock": "Emission",
-    "description": "Quantity of ultrasonic sensors, considered to be installed in front or rear area of ego vehicle in this context." ,
+    "description": "Distribution of ultrasonic sensors over ego vehicle in terms of number density in installation area. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[29, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.] [38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.316.]",
     "nodeType": "designParameter"
   },
@@ -342,15 +333,6 @@
     "nodeType": "systemIndependent"
   },
   {
-    "id": "44",
-    "parentIds": ["38", "29"],
-    "title": "Width of ego vehicle",
-    "decomBlock": "Emission",
-    "description": "Spatial width of ego vehicle, regarding its transverse axis." ,
-    "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.316.] [29, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
-    "nodeType": "designParameter"
-  },
-  {
     "id": "46",
     "parentIds": ["11"],
     "title": "Object part material properties",
@@ -398,9 +380,9 @@
   {
     "id": "51",
     "parentIds": ["20"],
-    "title": "Layers due to environmental influences on sensor diaphragm form a sound bridge with the bumper",
+    "title": "Layers due to environmental influences on diaphragm",
     "decomBlock": "Emission",
-    "description": "Layers of dirt, snow, or ice on sensor diaphragm form a sound bridge with the bumper.",
+    "description": "Layers of dirt, snow, or ice on sensor diaphragm and, thus, formation of a sound bridge with the bumper. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "[20, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.322.]",
     "nodeType": "systemIndependent"
   }
