@@ -184,7 +184,7 @@
     "parentIds": ["22", "25"],
     "title": "Side lobes",
     "decomBlock": "Signal propagation",
-    "description": "Three-dimensionally plotted distribution of transmitted waves, rather typically occuring bulge-like shapes being referred as lobes which are formed by the amplitudes of transmitted acoustic pressure waves. Lobes next to a characteristic central main lobe being referred as side lobes." ,
+    "description": "Three-dimensionally distribution of acoustic pressure related to the originally transmitted pressure, typically occuring as bulge-like shapes being referred as lobes. Lobes next to a characteristic central main lobe being referred as side lobes." ,
     "references": "[22, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.] [25, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
     "nodeType": "effect"
   },
@@ -193,7 +193,7 @@
     "parentIds": ["22"],
     "title": "Constriction of sonic lobe",
     "decomBlock": "Signal propagation",
-    "description": "Three-dimensionally plotted distribution of transmitted waves, rather typically occuring bulge-like shapes being referred as lobes which are formed by the amplitudes of transmitted acoustic pressure waves. Considering a tightening/narrowing of a transmitted main sonic lobe in present effect." ,
+    "description": "Three-dimensionally distribution of acoustic pressure related to the originally transmitted pressure, typically occuring as bulge-like shapes being referred as lobes. Considering a tightening/narrowing of a transmitted main sonic lobe in present effect." ,
     "references": "[22, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.314-315.]",
     "nodeType": "effect"
   },
@@ -211,7 +211,7 @@
     "parentIds": ["29"],
     "title": "Effective horizontal opening angle",
     "decomBlock": "Emission",
-    "description": "Effective opening angle of horizontal distribution of sound in terms of transmitted acoustic pressure waves. Big opening angles preferred regarding the coverage of ego vehicle width, considering a small number of sensors." ,
+    "description": "Effective opening angle of horizontal acoustic pressure distribution. Big opening angles preferred regarding the coverage of ego vehicle width, considering a small number of sensors." ,
     "references": "[29, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
     "nodeType": "designParameter"
   },
@@ -238,7 +238,7 @@
     "parentIds": ["33"],
     "title": "Effective vertical opening angle",
     "decomBlock": "Emission",
-    "description": "Effective opening angle of vertical distribution of sound in terms of transmitted acoustic pressure waves. Small opening angles preferred regarding possible reflections from road surface." ,
+    "description": "Effective opening angle of vertical acoustic pressure distribution. Small opening angles preferred regarding possible reflections from road surface." ,
     "references": "[33, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
     "nodeType": "designParameter"
   },
