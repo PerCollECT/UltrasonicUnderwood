@@ -6,7 +6,8 @@
     "decomBlock": "Emission",
     "description": "Polarization state, which is archieved by voltages being applied to piezoceramics during manufacturing process, is subsiding. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Depolarization process in piezoceramics", "Piezoceramic depolarization phenomenon", "Changes in polarization in piezoceramic material", "Piezoceramic polarization loss", "Loss of polarization in piezoelectric ceramics", "Depolarization effects in piezo materials"]
   },
   {
     "id": "1",
@@ -15,7 +16,8 @@
     "decomBlock": "Emission",
     "description": "Piezoceramics experiencing an aging process since they are manufactured. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.] [8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.308.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Aging process in piezoceramics", "Piezoceramic material aging", "Piezoceramic aging characteristics", "Material degradation in piezo materials"]
   },
   {
     "id": "2",
@@ -24,7 +26,8 @@
     "decomBlock": "Emission",
     "description": "Temperature of piezoceramics. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.] [8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.308.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Temperature impact on piezoceramics", "Piezoceramic material temperature", "Heat in piezoceramic material"]
   },
   {
     "id": "3",
@@ -33,7 +36,8 @@
     "decomBlock": "Emission",
     "description": "Constant electrical field applied opposite to polarization direction of piezoceramics. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Directed constant electrical field on piezoceramics", "Application of specific electrical field to piezoelectric ceramics", "Specific electrical field application on piezo materials"]
   },
   {
     "id": "4",
@@ -42,7 +46,8 @@
     "decomBlock": "Emission",
     "description": "Mechanical force applied opposite to mechanical deformation which occurred during polarization process of piezoceramics. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[0, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Directed mechanical force on piezoceramics", "Application of specific mechanical force to piezoelectric ceramics", "Specific mechanical force application on piezo materials"]
   },
   {
     "id": "6",
@@ -51,7 +56,8 @@
     "decomBlock": "Reception",
     "description": "Sound, which is being a mechanical vibration transmitted through a medium as a longitudinal wave, being received by piezo transducer." ,
     "references": "[8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307-309.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Reception of sound waves", "Soundwave sensing", "Capture of soundwaves", "Receiving acoustic signals", "Soundwave pickup"]
   },
   {
     "id": "7",
@@ -60,7 +66,8 @@
     "decomBlock": "Emission",
     "description": "Application of pre-defined electrical voltage to piezo transducer." ,
     "references": "[8, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.307-309.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Application of electrical voltage to piezo transducer", "Voltage input to piezoelectric transducer", "Voltage supplied to piezo transducer", "Voltage impact on piezo transducer"]
   },
   {
     "id": "8",
@@ -69,7 +76,8 @@
     "decomBlock": "Emission",
     "description": "Frequency of oscillating diaphragm, determining the number of full oscillation wave periods per second. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "[10, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.] [13, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Diaphragm oscillation frequency", "Frequency of diaphragm vibrations", "Oscillation rate of diaphragm", "Diaphragm movement frequency", "Vibrational frequency of diaphragm", "Rate of diaphragm oscillations"]
   },
   {
     "id": "10",
@@ -78,7 +86,8 @@
     "decomBlock": "Signal propagation",
     "description": "The higher the sound frequency, the higher the airborne sound dampening. Thus, amplitudes of considered high frequency soundwaves are decreasing faster while propagating, in comparison to soundwaves of lower frequencies.",
     "references": "[11, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Increased airborne sound attenuation at high frequencies", "Greater sound dampening for high-frequency airborne waves", "High-frequency sound dampening in air", "Enhanced attenuation of high-frequency airborne sound", "Dampening effect on high-frequency airborne sound", "Increased dampening at higher frequencies"]
   },
   {
     "id": "11",
@@ -87,7 +96,8 @@
     "decomBlock": "Reception",
     "description": "Amplitudes of measured echo signal being low, rearding the power of sound received by diaphragm whithin the sensor." ,
     "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.] [50, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321-322.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Echo signal with low amplitudes", "Weak echo signal", "Diminished echo amplitudes", "Echo signal with low power", "Faint echo signal"]
   },
   {
     "id": "13",
@@ -96,7 +106,8 @@
     "decomBlock": "Signal propagation",
     "description": "The lower the working frequency of an installed diaphragm, the bigger the proportion of sources of interfering sound in sensor environment." ,
     "references": "",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Growing proportion of interfering sound sources at lower frequencies", "Increase in interfering sources at lower working frequencies", "Higher ratio of sound interference at lower frequencies", "Elevated interference proportion at lower working frequencies", "Greater influence of interfering sources at lower frequencies"]
   },
   {
     "id": "14",
@@ -105,7 +116,8 @@
     "decomBlock": "Emission",
     "description": "Diaphragm oscillations are not settled after transmission of ultrasonic pulse while the pulse has already been reflected and returned as an echo." ,
     "references": "[15, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Diaphragm oscillation settling time longer than ultrasonic pulse runtime", "Stabilization time exceeding ultrasonic pulse duration", "Settlement delay for diaphragm oscillations", "Delay in settling of diaphragm oscillations", "Beyond ultrasonic pulse time", "Diaphragm oscillations settlement time"]
   },
   {
     "id": "15",
@@ -114,7 +126,8 @@
     "decomBlock": "Reception",
     "description": "Non-existing or interrupted data flow whithin sensor reception unit." ,
     "references": "",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Non-receptive system", "Lack of reception in the system", "Interrupted data flow", "Non-receptivity of the system", "Unresponsive system behavior", "System not receiving signals"]
   },
   {
     "id": "16",
@@ -123,7 +136,8 @@
     "decomBlock": "Emission",
     "description": "Ultrasonic transducers can be operating in transmit- or receive mode. Sound waves being sent out in transmit mode as pre-defined voltages are applied to installed piezoceramics." ,
     "references": "[18, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.] [10, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Ultrasonic transducer in transmit mode", "Ultrasonic transducer operates as transmitter", "Transmitting mode of ultrasonic transducer", "Transmit operation of ultrasonic sensor", "Usage of ultrasonic transducer in transmit function", "Ultrasonic transmission mode"]
   },
   {
     "id": "17",
@@ -132,7 +146,8 @@
     "decomBlock": "Reception",
     "description": "Ultrasonic transducers can be operating in transmit- or receive mode. Sound waves being received and transformed into voltages by installed piezoceramics, when operating in receive mode." ,
     "references": "[18, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.] [13, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.309.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Ultrasonic transducer in receive mode", "Ultrasonic transducer operates as receiver", "Receiving mode of ultrasonic transducer", "Receive operation of ultrasonic sensor", "Usage of ultrasonic transducer in receive function", "Ultrasonic reception mode"]
   },
   {
     "id": "18",
@@ -141,7 +156,8 @@
     "decomBlock": "Emission",
     "description": "Ultrasonic transducers can be operating in transmit- or receive mode, while a combination of the two modes whithin a single transducer is implementable. Sound waves being sent out in transmit mode as pre-defined voltages are applied to installed piezoceramics. After being reflected by object parts in the sensor field of view, the waves are again being received by the same sensor in receive mode and transformed into voltages by installed piezoceramics." ,
     "references": "[15, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Ultrasonic transducer in transmit and receive mode", "Ultrasonic transducer operates in transmit and receive functions", "Combined transmit and receive mode of ultrasonic transducer", "Transmit and receive operation of ultrasonic sensor", "Usage of ultrasonic transducer in both transmit and receive functions", "Dual-mode ultrasonic transducer"]
   },
   {
     "id": "19",
@@ -150,7 +166,8 @@
     "decomBlock": "Signal propagation",
     "description": "Close positioned reflective object part, while 'close' is to be weighted in context of considered effect." ,
     "references": "[14, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Reflective object part near observer", "Object component with reflective properties close to observer", "Reflecting part in proximity to observer", "Object part reflecting signals close to the observer", "Reflective element near the observer", "Object part with reflective characteristics near the observer"]
   },
   {
     "id": "20",
@@ -159,7 +176,8 @@
     "decomBlock": "Emission",
     "description": "Spatial and temporal behavior of diaphragm oscillations in terms of decay and resounding. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[14, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.310.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Settlement and resounding behavior of diaphragm oscillations", "Diaphragm oscillation settling and resounding characteristics", "Response of diaphragm oscillations in settling and resounding", "Settlement and resounding phases", "Settlement and resounding dynamics", "Diaphragm oscillation settling and resounding features"]
   },
   {
     "id": "22",
@@ -168,7 +186,8 @@
     "decomBlock": "Signal propagation",
     "description": "Directionality characteristics / antenna diagram representing the spatial distribution of so called lobes of transmitted waves, being soundwaves in this context. Considering inhomogeneous lobe distributions in present effect." ,
     "references": "",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Inhomogeneous sensor directionality", "Antenna diagram non-uniformity", "Variability in sensor directional characteristics", "Non-homogeneous antenna diagram of sensor", "Sensor with uneven directionality characteristics", "Inconsistent antenna diagram of the sensor"]
   },
   {
     "id": "23",
@@ -177,7 +196,8 @@
     "decomBlock": "Signal propagation",
     "description": "Interference effects being experienced when the field components of two or more waves, being sound waves in this context, overlap in a manner so that they amplify or weaken each other." ,
     "references": "[22, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.] [25, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Interference in sound signals", "Soundwave interference", "Constructive interference", "Destructive interference", "Interference affecting acoustic signals", "Sound disruption", "Overlapping sound waves"]
   },
   {
     "id": "24",
@@ -186,7 +206,8 @@
     "decomBlock": "Signal propagation",
     "description": "Three-dimensionally distribution of acoustic pressure related to the originally transmitted pressure, typically occuring as bulge-like shapes being referred as lobes. Lobes next to a characteristic central main lobe being referred as side lobes." ,
     "references": "[22, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.] [25, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Side lobes in antenna diagram", "Secondary lobes in sensor directionality", "Antenna diagram side peaks", "Side lobes in directional characteristics", "Additional lobes in sensor antenna pattern"]
   },
   {
     "id": "25",
@@ -195,7 +216,8 @@
     "decomBlock": "Signal propagation",
     "description": "Three-dimensionally distribution of acoustic pressure related to the originally transmitted pressure, typically occuring as bulge-like shapes being referred as lobes. Considering a tightening/narrowing of a transmitted main sonic lobe in present effect." ,
     "references": "[22, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.314-315.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Narrowing of sonic lobe", "Reduced width of soundwave coverage", "Constricted region in sensor directionality", "Shrinking of sonic lobe", "Sonic lobe constriction", "Diminished coverage in sonic lobe"]
   },
   {
     "id": "26",
@@ -204,7 +226,8 @@
     "decomBlock": "Signal propagation",
     "description": "Parts of sensor environment being in front of installation plane e.g. due to deeper installation of sensor compared to surroundings." ,
     "references": "[23, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.] [24, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Obtrusive installation surroundings", "Environment with protruding structures", "Obstacles protruding into installation space", "Protruding objects in installation environment", "Installation environment with protrusions", "Obstruction in the installation area"]
   },
   {
     "id": "27",
@@ -213,7 +236,8 @@
     "decomBlock": "Emission",
     "description": "Effective opening angle of horizontal acoustic pressure distribution. Big opening angles preferred regarding the coverage of ego vehicle width, considering a small number of sensors." ,
     "references": "[29, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Effective horizontal opening angle of sensors", "Horizontal sensing angle coverage", "Sensors' horizontal field of view", "Effective angle of perception in horizontal direction", "Coverage span in horizontal plane"]
   },
   {
     "id": "28",
@@ -222,7 +246,8 @@
     "decomBlock": "Emission",
     "description": "Distribution of ultrasonic sensors over ego vehicle in terms of number density in installation area. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode." ,
     "references": "[29, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.] [38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.316.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Installed sensors distribution", "Arrangement of deployed sensors", "Placement of installed sensing devices", "Sensor layout distribution", "Spatial positioning of sensors", "Distribution pattern of installed sensors"]
   },
   {
     "id": "29",
@@ -231,7 +256,8 @@
     "decomBlock": "Emission",
     "description": "Sensor coverage of ego vehicle width being incomplete. The term coverage being considered to relate to the effective area, where the area of transmitted and receivable sound are overlapping." ,
     "references": "",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Incomplete width coverage", "No full covering of ego vehicle width", "Partial coverage of vehicle width", "Insufficient width coverage", "Ego vehicle width inadequately covered", "Lack of complete coverage for vehicle width by sensors"]
   },
   {
     "id": "30",
@@ -240,7 +266,8 @@
     "decomBlock": "Emission",
     "description": "Effective opening angle of vertical acoustic pressure distribution. Small opening angles preferred regarding possible reflections from road surface." ,
     "references": "[33, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
-    "nodeType": "designParameter"
+    "nodeType": "designParameter",
+    "tags": ["Effective vertical opening angle of sensors", "Vertical sensing angle coverage", "Sensors' vertical field of view", "Effective angle of perception in the vertical direction", "Coverage span in the vertical plane by sensors"]
   },
   {
     "id": "31",
@@ -249,7 +276,8 @@
     "decomBlock": "Signal propagation",
     "description": "Road surface being hit by transmitted ultrasonic sound wave, leading to a partial reflection." ,
     "references": "[33, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Reflective signals from road surface", "Reflections off the road", "Road surface reflecting signals", "Signal bounce from road surface", "Reflected signals from the road", "Road surface reflections"]
   },
   {
     "id": "32",
@@ -258,7 +286,8 @@
     "decomBlock": "Signal propagation",
     "description": "Gravel/paved construction of road surface." ,
     "references": "[33, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.313.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Activity on gravel or paved road", "Monitoring on gravel/paved road", "Operation on gravel or paved road", "Sensing on gravel/paved road"]
   },
   {
     "id": "33",
@@ -267,7 +296,8 @@
     "decomBlock": "Detection identification",
     "description": "Additional detection, compared to an ideally detected surrounding." ,
     "references": "",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Incorrect target identification", "Spurious object detection", "Mistaken positive signal", "False alarm", "Inaccurate positive identification", "Signal misinterpretation"]
   },
   {
     "id": "35",
@@ -276,7 +306,8 @@
     "decomBlock": "Signal propagation",
     "description": "Speed of sound in air may vary from implemented parameter used for distance calculation." ,
     "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Variation in air speed of sound", "Changes in sound velocity in air", "Shifts in soundwave speed in air", "Alteration in air's sound propagation speed", "Differential soundwave velocity in air", "Modifications in air's sound speed"]
   },
   {
     "id": "36",
@@ -285,7 +316,8 @@
     "decomBlock": "Signal propagation",
     "description": "Temperature of air." ,
     "references": "[35, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Temperature of the air", "Atmospheric temperature", "Air thermal conditions", "Temperature in the atmosphere"]
   },
   {
     "id": "37",
@@ -294,7 +326,8 @@
     "decomBlock": "Signal propagation",
     "description": "Density of air." ,
     "references": "[35, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Density of the air", "Atmospheric density", "Air mass per unit volume", "Density in the atmosphere", "Ambient air density"]
   },
   {
     "id": "38",
@@ -303,7 +336,8 @@
     "decomBlock": "Pre-processing",
     "description": "Accuracy error in distance measurement between sensor and object part compared to ground truth distance." ,
     "references": "",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Error in distance measurement", "Inaccurate distance", "Distance measurement discrepancy", "Error in measuring distance", "Mistake in determined distance"]
   },
   {
     "id": "40",
@@ -312,7 +346,8 @@
     "decomBlock": "Signal propagation",
     "description": "Pose of obstacle to be detected by installed ultrasonic sensor. Position and orientation are determining the pose of an object with respect to DIN EN ISO 8373." ,
     "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Position and orientation of obstacle", "Obstacle's spatial arrangement", "Obstacle's pose in space", "Orientation and location of obstacle", "Spatial characteristics of obstacle", "Obstacle's arrangement and orientation"]
   },
   {
     "id": "41",
@@ -321,7 +356,8 @@
     "decomBlock": "Signal propagation",
     "description": "Expansion of obstacle to be detected by installed ultrasonic sensor, regarding the magnitude of occupied volume." ,
     "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Magnitude of volume occupied by obstacle", "Expanding dimensions of obstacle", "Size of obstacle", "Obstacle expansion"]
   },
   {
     "id": "42",
@@ -330,7 +366,8 @@
     "decomBlock": "Signal propagation",
     "description": "Geometry of obstacle to be detected by installed ultrasonic sensor, regarding its spatial profile." ,
     "references": "[38, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.315.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Shape and structure of obstacle", "Obstacle's spatial form", "Geometry of obstacle", "Physical structure of obstacle", "Obstacle's shape", "Spatial characteristics of obstacle"]
   },
   {
     "id": "46",
@@ -339,7 +376,8 @@
     "decomBlock": "Signal propagation",
     "description": "Sound absorption and reflection properties of object parts being determined by their material properties. Materials like metal, plastics, wood, masonry, and glass typically absorb a negligible amout of sound so that they show almost similar reflection properties for a considered geometric shape. Partly sound-absorbing materials like foam on the other hand may limit the distribution of sound. Also clothes, as their absorption properties may vary in a big range, have an impact on the specific measuring range." ,
     "references": "[11, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Material characteristics of object part", "Properties of material in object component", "Material traits of object part", "Physical attributes of object component material", "Material qualities of object part"]
   },
   {
     "id": "47",
@@ -348,7 +386,8 @@
     "decomBlock": "Detection identification",
     "description": "Missing detection, compared to an ideally detected surrounding." ,
     "references": "",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Missed target identification", "Undetected object", "Failure to recognize", "Neglected positive signal", "Incomplete detection", "Signal oversight"]
   },
   {
     "id": "48",
@@ -357,7 +396,8 @@
     "decomBlock": "Signal propagation",
     "description": "Extraneous sources of ultrasonic waves in region installed sensor, as for example compressed air noises by air brakes in trucks or metallic grating noises from railed vehicles." ,
     "references": "[49, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321-322.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Additional ultrasonic emitters nearby", "Extra ultrasonic signal sources in proximity", "Supplementary ultrasonic emitters near sensor", "Other ultrasonic emitters close to the sensor", "Added sources of ultrasonic signals in the vicinity", "Auxiliary ultrasonic emitters in sensor's proximity"]
   },
   {
     "id": "49",
@@ -366,7 +406,8 @@
     "decomBlock": "Detection identification",
     "description": "Variety of unintentionally measured radiation power impulses." ,
     "references": "[50, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321-322.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Noise level", "Background noise", "Floor noise level", "Oservable noise", "Ambient noise baseline", "Signal floor"]
   },
   {
     "id": "50",
@@ -375,7 +416,8 @@
     "decomBlock": "Detection identification",
     "description": "The power received from the reflective surface of the object of interest present in ground truth is mathematically or visually not distinguishable from noise." ,
     "references": "[47, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.321-322.]",
-    "nodeType": "effect"
+    "nodeType": "effect",
+    "tags": ["Indistinguishable from noise", "Unable to differentiate from background noise", "Noise floor confusion", "Signal not separable from noise", "Signal blending with noise floor", "Noise floor overlap"]
   },
   {
     "id": "51",
@@ -384,6 +426,7 @@
     "decomBlock": "Emission",
     "description": "Layers of dirt, snow or ice on sensor diaphragm and, thus, formation of a sound bridge with the bumper. Attention: Possible assignment to Decomposition Block 'Reception' regarding a sensor operating in transmit- and receive mode.",
     "references": "[20, Noll and Rapps, Ultrasonic Sensors for a K44DAS, http://link.springer.com/10.1007/978-3-319-12352-3_16, p.322.]",
-    "nodeType": "systemIndependent"
+    "nodeType": "systemIndependent",
+    "tags": ["Environmental influence layers on diaphragm", "Impact layers on diaphragm caused by environmental factors", "Diaphragm layers resulting from environmental influences", "Stratification of diaphragm due to environmental effects", "Environmental influence-induced layers"]
   }
 ]
